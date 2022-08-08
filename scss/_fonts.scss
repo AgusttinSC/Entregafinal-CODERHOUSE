@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&family=Lustria&family=Rokkitt:wght@600&display=swap');
+
+.text-title {
+    font-family: $font-principal;
+    font-size: 2em;
+}
+
+.text-p {
+    font-family: $font-segunda;
+    font-weight: 400;
+    color: black;
+    font-size: 1.2em;
+}
+
+.text-li {
+    transition: 1s;
+    transition: 0.5s;
+    font-family: $font-segunda;
+    font-weight: bold;
+    color: black;
+    &:hover {
+        font-size: 1.5em;
+    }
+    
+}
+
+.text-footer {
+    font-family: $font-tercera;
+    font-weight: bold;
+    font-size: 1em;
+    color: black;
+}
